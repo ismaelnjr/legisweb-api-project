@@ -2,6 +2,7 @@
 import pytest
 import os
 import sys
+from dotenv import load_dotenv
 
 # Necessário para que o arquivo de testes encontre
 test_root = os.path.dirname(os.path.abspath(__file__))
@@ -11,9 +12,14 @@ sys.path.insert(0, test_root)
 
 from legiswebapi.legisweb_client import LegiswebClient
 
+load_dotenv()
+
+token = os.getenv("LEGISWEB_TOKEN")
+codigo_cliente = os.getenv("LEGISWEB_CODIGO_CLIENTE")
+
 @pytest.fixture
 def client():
-    return LegiswebClient(token="fake_token", codigo_cliente="9999")
+    return LegiswebClient(token=token, codigo_cliente=codigo_cliente)
 
 def mock_api(requests_mock, endpoint, response):
     requests_mock.get(f"https://www.legisweb.com.br/api/{endpoint}", json=response)
