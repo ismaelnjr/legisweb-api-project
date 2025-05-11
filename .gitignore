@@ -1,4 +1,4 @@
 /.env
 /.pytest_cache
 /.venv
-/logs
+logs
