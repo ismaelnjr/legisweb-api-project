@@ -99,7 +99,7 @@ class LegiswebClient:
         })
 
     def consulta_empresa(self, cnpj: str) -> dict:
-        return self._get("empresas", {"empresa": cnpj, "data_inicio": "2000-01-01", "data_fim": "2030-12-31", "cnae": "5813100"})
+        return self._get("empresas", {"empresa": cnpj})
 
     def consulta_cfop(self, codigo: str) -> dict:
         return self._get("cfop", {"codigo": codigo})
