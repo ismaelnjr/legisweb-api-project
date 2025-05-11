@@ -1,0 +1,36 @@
+{
+    "registros": 1,
+    "resposta": [
+        {
+            "tec": "TEC - Resolução GECEX Nº 272 DE 19/11/2021",
+            "ncm": "2106.90.30",
+            "descricao": "Suplementos alimentares",
+            "descricao_espanhol": "Complementos alimenticios",
+            "descricao_ingles": "Alimentary complements",
+            "descricao_completa": "21.06 - Preparações alimentícias não especificadas nem compreendidas noutras posições. \n2106.90 - - Outras \n2106.90.30 - Suplementos alimentares \n",
+            "aliquota": "16 %",
+            "capitulo": "21 - Preparações alimentícias diversas",
+            "capitulo_descricao": "\r\n\tNotas.\r\n\t\r\n\t1.- O presente Capítulo não compreende:\r\n\t\r\n\ta) As misturas de produtos hortícolas da posição 07.12;\r\n\t\r\n\tb) Os sucedâneos torrados do café que contenham café em qualquer proporção (posição 09.01);\r\n\t\r\n\tc) O chá aromatizado (posição 09.02);\r\n\t\r\n\td) As especiarias e outros produtos das posições 09.04 a 09.10;\r\n\t\r\n\te) As preparações alimentícias, exceto os produtos descritos nas posições 21.03 ou 21.04, que contenham, em peso, mais de 20 % de enchidos, carne, miudezas, sangue, insetos, peixes ou crustáceos, moluscos ou de outros invertebrados aquáticos, ou de uma combinação destes produtos (Capítulo 16);\r\n\t\r\n\tf) Os produtos da posição 24.04;\r\n\t\r\n\tg) As leveduras acondicionadas como medicamentos e os outros produtos das posições 30.03 ou 30.04;\r\n\t\r\n\th) As enzimas preparadas da posição 35.07.\r\n\t\r\n\t2.- Os extratos dos sucedâneos mencionados na Nota 1 b), acima, incluem-se na posição 21.01.\r\n\t\r\n\t3.- Na acepção da posição 21.04, consideram-se &quot;preparações alimentícias compostas homogeneizadas&quot; as preparações constituídas por uma mistura finamente homogeneizada de diversas substâncias de base, como carne, peixe, produtos hortícolas, fruta, acondicionadas para venda a retalho como alimentos para lactentes e crianças de tenra idade ou para usos dietéticos, em recipientes de conteúdo de peso líquido não superior a 250 g. Para aplicação desta definição, não se consideram as pequenas quantidades de ingredientes que possam ter sido adicionados à mistura para tempero, conservação ou outros fins. Estas preparações podem conter, em pequenas quantidades, fragmentos visíveis.\r\n",
+            "secao": "4 - PRODUTOS DAS INDÚSTRIAS ALIMENTARES; BEBIDAS, LÍQUIDOS ALCOÓLICOS E VINAGRES; TABACO E SEUS SUCEDÂNEOS MANUFATURADOS;  PRODUTOS, MESMO COM NICOTINA, DESTINADOS À INALAÇÃO SEM COMBUSTÃO; OUTROS PRODUTOS QUE CONTENHAM NICOTINA DESTINADOS  À ABSORÇÃO DA NICOTINA PELO CORPO HUMANO",
+            "secao_descricao": "\r\n\tNota.\r\n\r\n\t1.- Na presente Seção, o termo &quot;pellets&quot; designa os produtos apresentados sob as formas cilíndrica, esférica, etc., aglomerados, quer por simples pressão, quer por adição de um aglutinante em proporção não superior a 3 %, em peso.\r\n",
+            "variacao_aliquota": [
+                {
+                    "descricao": "Suplementos alimentares",
+                    "valor": "14.40%",
+                    "ex_tarifario": null,
+                    "vigencia_inicial": "01/01/2024",
+                    "vigencia_final": null,
+                    "observacoes": "Alíquota aplicada em virtude da aprovação do Anexo III da Decisão CMC Nº 8/2022, e pela  - Resolução GECEX Nº 391 DE 23/08/2022.",
+                    "base_legal": "Anexo II da Resolução GECEX Nº 272 DE 19/11/2021"
+                }
+            ],
+            "unidade_medida": [
+                {
+                    "medida": "KG (Quilograma)",
+                    "data_inicial": "01/11/2023",
+                    "data_final": null
+                }
+            ]
+        }
+    ]
+}

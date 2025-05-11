@@ -1,0 +1,15 @@
+{
+    "registros": 1,
+    "resposta": [
+        {
+            "codigo": "78402",
+            "ncm": "2106.90.30",
+            "descricao": "Suplementos alimentares",
+            "aliquota": "0",
+            "excecao_numero": "",
+            "excecao_descricao": "",
+            "variante": "",
+            "observacao": ""
+        }
+    ]
+}
