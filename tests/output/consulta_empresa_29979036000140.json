@@ -1,0 +1,39 @@
+{
+    "registros": 1,
+    "paginacao": {
+        "pagina ": 1,
+        "quantidades_paginas": 1,
+        "quantidade_total_registros": 1
+    },
+    "resposta": [
+        {
+            "cnpj": "29979036000140",
+            "tipo": "Matriz",
+            "razao_social": "INSTITUTO NACIONAL DO SEGURO SOCIAL",
+            "nome_fantasia": "COORDENACAO GERAL DE ORCAMENTO FINANCAS E CONTABILIDADE",
+            "data_inicio": "13/04/1978",
+            "end_tipo": "SETOR",
+            "end": "SAUS  QUADRA 02  BLOCO O",
+            "end_numero": "6",
+            "end_compl": "ANDAR",
+            "end_bairro": "ASA SUL",
+            "cidade": "BRASILIA",
+            "estado": "DF",
+            "cidade_exterior": "",
+            "pais_nome": "",
+            "situacao": "Ativa",
+            "atividade_principal": "8430200 - SEGURIDADE SOCIAL OBRIGATÓRIA",
+            "atividade_secundaria": "",
+            "regime_tributario": "Simples Nacional",
+            "opcao_simples": "",
+            "natureza_juridica": "110-4 - Autarquia Federal",
+            "opcao_mei": "Não",
+            "porte": "Demais",
+            "telefone": "6133134509",
+            "situacao_especial": "",
+            "capital_social": "",
+            "ultima_atualizacao": "12/05/2025",
+            "fonte": "Receita Federal do Brasil"
+        }
+    ]
+}

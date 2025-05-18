@@ -1,0 +1,25 @@
+{
+    "registros": 1,
+    "resposta": [
+        {
+            "0": {
+                "variacao": "Sim (Não substitui a alíquota padrão)",
+                "aliquota_descricao": "Cervejas de malte.",
+                "aliquota": "18.00%",
+                "observacao": "Alíquota aplicada em virtude da aprovação do Anexo III da Decisão CMC Nº 8/2022, e pela  - Resolução GECEX Nº 391 DE 23/08/2022.",
+                "aliquota_base_legal": "Anexo II da Resolução GECEX Nº 272 DE 19/11/2021",
+                "aliquota_vigencia_inicial": "01/01/2024",
+                "aliquota_vigencia_final": null,
+                "sem_similar_nacional_alerta": "Atenção: O produto abaixo não se enquadra nas disposições da Resolução Camex 79/2012. Aplica-se a aliquota de 4% nas operações interestaduais de produtos importados, observado os termos previstos na Resolução SF 13/2012.",
+                "sem_similar_nacional": "Possui Similar Nacional"
+            },
+            "tabela_tec": "TEC - Resolução GECEX Nº 272 DE 19/11/2021",
+            "ncm": "2203.00.00",
+            "descricao": "Cervejas de malte.",
+            "aliquota_ii": "20%",
+            "similar_nacional": "Possui Similar Nacional",
+            "similar_nacional_alerta": "Atenção: O produto não se enquadra nas disposições da Resolução Camex 79/2012. Aplica-se a aliquota de 4% nas operações interestaduais de produtos importados, observado os termos previstos na Resolução SF 13/2012",
+            "descricao_completa": "2203.00.00 - Cervejas de malte.<br>"
+        }
+    ]
+}

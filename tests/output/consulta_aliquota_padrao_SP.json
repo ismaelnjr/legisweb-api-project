@@ -1,0 +1,12 @@
+{
+    "registros": 1,
+    "resposta": [
+        {
+            "tipo": "Alíquota ICMS",
+            "estado": "São Paulo",
+            "aliquota": "18.00",
+            "descricao": "Operações ou prestações internas, ainda que iniciadas no exterior",
+            "base_legal": "Art. 52, Inc. I, RICMS/SP"
+        }
+    ]
+}

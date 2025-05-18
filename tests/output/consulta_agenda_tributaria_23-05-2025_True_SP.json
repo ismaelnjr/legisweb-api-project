@@ -1,0 +1,20 @@
+{
+    "registros": 1,
+    "resposta": [
+        {
+            "id": "806491",
+            "area": "ICMS, IPI, ISS e Outros",
+            "assunto": "ICMS",
+            "dia": "23",
+            "descricao": "Refinaria de petróleo ou suas bases - alínea b",
+            "obrigacao": "Refinaria de petróleo ou suas bases, na hipótese prevista na alínea b do inciso III da cláusula vigésima segunda, a saber: \r\n\r\n\"b) em relação às operações cujo imposto tenha sido anteriormente retido por outros contribuintes, a provisão do valor do imposto devido às unidades federadas de destino das mercadorias, limitado ao valor efetivamente recolhido à unidade federada de origem, para o repasse que será realizado até o 20º (vigésimo) dia do mês subseqüente àquele em que tenham ocorrido as operações interestaduais, observado o disposto no § 3º\"\r\n\r\nInformações destinadas à apuração e demonstração dos valores de repasse, dedução, ressarcimento e complemento do ICMS. (SCANC)\r\n\r\nBase Legal: <a href=\"/legislacao/?id=470785\"target=\"_blank\"><strong>Ato ICMS/COTEPE Nº 173 DE 19/12/2024</strong></a> e <a href=\"/legislacao/?id=16177#p1a26\"target=\"_blank\"><strong>Alínea \"b\", Inciso V, Parágrafo 1º, Cláusula vigésima sexta do Convênio ICMS Nº 110 DE 28/09/2007</strong></a>.",
+            "periodo_apuracao": "Abril de 2025",
+            "cod_recolhimento": null,
+            "base_legal": null,
+            "abrangencia": "Estadual",
+            "tipo_obrigacao": "Acessória",
+            "estado": "São Paulo",
+            "cidade": null
+        }
+    ]
+}

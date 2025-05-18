@@ -33,8 +33,8 @@ testes.append(("consulta_ii", {"ncm": "21069030"}))
 # API PIS/COFINS (requer regime e atividade)
 testes.append(("consulta_piscofins", {
     "ncm": "22030000",
-    "regime": "2",  # Lucro Real
-    "atividade": "3", # Fabricante
+    "regime_tributario_origem": "2",  # Lucro Real
+    "atividade_origem": "3", # Fabricante
 }))
 
 # API ST Interna
@@ -51,12 +51,41 @@ testes.append(("consulta_st_interestadual", {
     "destinacao": 1  # Comercialização
 }))
 
+# API consulta sem similar nacional
+testes.append(("consulta_produto_ssn", {
+    "ncm": "22030000"
+}))
+
+# API consulta pauta fiscal
+testes.append(("consulta_pauta_fiscal", {
+    "estado": "SP",
+    "opcao": 5,
+    "busca": "Cerveja"
+}))
+
+# API consulta aliquota padrão
+testes.append(("consulta_aliquota_padrao", {
+    "estado": "SP"
+}))
+
+# API agenda tributária
+testes.append(("consulta_agenda_tributaria", {
+    "data": "23/05/2025",
+    "incluir_estadual": True,
+    "estado": "SP"
+}))
+
+# API consulta empresa
+testes.append(("consulta_empresa", {
+    "empresa": "29979036000140"
+}))
+
 # Executa os testes
 for metodo, params in testes:
     try:
         print(f"Consultando {metodo} com parâmetros: {params}")
         resposta = getattr(client, metodo)(**params)
-        identificador = "_".join([str(v) for v in params.values()])
+        identificador = "_".join([str(v).replace("/", "-") for v in params.values()])
         arquivo = f"output\\{metodo}_{identificador}.json"
         with open(arquivo, "w", encoding="utf-8") as f:
             json.dump(resposta, f, indent=4, ensure_ascii=False)
